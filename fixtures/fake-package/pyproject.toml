@@ -21,7 +21,7 @@ exclude = '''
 '''
 
 [tool.towncrier]
-package = 'fake_package'
+package = 'fake-package'
 package_dir = 'src'
 filename = 'CHANGELOG.rst'
 directory = 'news/'
