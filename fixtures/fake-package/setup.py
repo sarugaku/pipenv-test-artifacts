@@ -6,11 +6,11 @@ from setuptools import find_packages, setup
 
 ROOT = os.path.dirname(__file__)
 
-PACKAGE_NAME = 'fake_package'
+PACKAGE_NAME = 'fake-package'
 
 VERSION = None
 
-with open(os.path.join(ROOT, 'src', PACKAGE_NAME, '__init__.py')) as f:
+with open(os.path.join(ROOT, 'src', PACKAGE_NAME.replace("-", "_"), '__init__.py')) as f:
     for line in f:
         if line.startswith('__version__ = '):
             VERSION = ast.literal_eval(line[len('__version__ = '):].strip())
