@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 ROOT = os.path.dirname(__file__)
 
-PACKAGE_NAME = 'fake-package'
+PACKAGE_NAME = 'fake_package'
 
 VERSION = None
 
