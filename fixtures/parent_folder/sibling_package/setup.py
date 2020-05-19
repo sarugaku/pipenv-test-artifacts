@@ -10,7 +10,7 @@ testing_extras = ["coverage", "flaky"]
 setup(
     name="sibling_package",
     version=version,
-    description="The Backend HTTP Server",
+    description="Subdependency package",
     long_description="This is a package",
     install_requires=[
         "toml",
